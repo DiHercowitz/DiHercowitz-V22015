@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,900);
+
+html{
+    font-family: 'Roboto', sans-serif;
+    background: #ff5a70; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff5a70 0%, #c44268 90%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff5a70), color-stop(90%,#c44268)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ff5a70 0%,#c44268 90%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ff5a70 0%,#c44268 90%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ff5a70 0%,#c44268 90%); /* IE10+ */
+    background: linear-gradient(to bottom, #ff5a70 0%,#c44268 90%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5a70', endColorstr='#c44268',GradientType=0 ); /* IE6-9 */;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+
+.title {font-weight:900; text-transform:uppercase; font-size:25px; padding:0; margin:0}
+.subtitle {font-weight:300; font-style:italic; font-size:15px;  padding:0; margin:0}
+p {color:#fff; font-weight:300; font-size:14px}
+
+.title, .subtitle, p {color:#fff}
+
+.my-photo {border-radius:100%}
+
+
+ /* PORTABLE */
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width:640px) {
+    .my-photo-wrap {box-sizing: border-box; display:block; float: left; padding:40px 40px 0 40px; width:100%; text-align:center;}
+    .my-name,
+    .my-role,
+    .mini-resume {width:100%; text-align:center}
+    .mini-resume {padding:0 40px; box-sizing: border-box;  text-align:left; line-height:32px}
+
+}
